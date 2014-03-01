@@ -2,6 +2,8 @@
 
 This is a project to test writing ClojureScript for NodeJS and Express.
 
+I started out with the [nodecljs template](http://blog.lauripesonen.com/leiningen-template-for-cljs-on-node-projects/).
+
 ## Running it
 
 To just compile and run the application:
