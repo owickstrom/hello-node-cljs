@@ -1,10 +1,8 @@
-(ns hello-node-cljs.greet
-  (:require [hiccups.runtime :as hiccupsrt]
-            [hello-node-cljs.template :refer [render layout nav jumbotron a]]
-            [hello-node-cljs.server :refer [GET]])
-  (:require-macros [hiccups.core :refer [defhtml]]))
+(ns hello-node-cljs.views
+  (:require [hello-node-cljs.template :refer [render layout jumbotron]]
+            [hello-node-cljs.server :refer [GET]]))
 
-(defn init [app]
+(defn register [app]
   (-> app
       (GET "/"
            (render layout
