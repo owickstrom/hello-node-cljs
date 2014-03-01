@@ -14,7 +14,7 @@ To just compile and run the application:
 If you want automated compilation and reloading of the server you can
 use [nodemon](https://github.com/remy/nodemon).
 
-    lein cljsbuild once
+    lein cljsbuild auto
     # And in another tab/pane/whatever...
     nodemon server.js
 
