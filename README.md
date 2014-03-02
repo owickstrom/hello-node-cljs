@@ -18,6 +18,8 @@ use [nodemon](https://github.com/remy/nodemon).
     # And in another tab/pane/whatever...
     nodemon server.js
 
+The application is served at `localhost:3000`.
+
 ## License
 
 Copyright © 2014 Oskar Wickström
