@@ -6,6 +6,8 @@ I started out with the [nodecljs template](http://blog.lauripesonen.com/leininge
 
 ## Running it
 
+    npm install express
+
 To just compile and run the application:
 
     lein cljsbuild once
